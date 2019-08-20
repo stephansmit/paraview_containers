@@ -8,5 +8,5 @@ From: ubuntu:16.04
     tar zxvf /opt/ParaView-5.7.0-RC2-MPI-Linux-Python3.7-64bit.tar.gz -C /opt/
     chmod -R 777 /opt/
    
-#%runscript
-#    exec '$@' 
+%runscript
+    exec /opt//ParaView-5.7.0-RC2-MPI-Linux-Python3.7-64bit/bin/paraview '$@' 
